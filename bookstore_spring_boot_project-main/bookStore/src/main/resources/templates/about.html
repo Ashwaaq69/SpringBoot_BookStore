@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.com">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Book Store</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            margin-top: 50px;
+        }
+        h1 {
+            margin-bottom: 30px;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            color: #343a40;
+        }
+        .content {
+            color: #333;
+        }
+        .content p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            color: #666;
+        }
+        .button {
+            background-color: #ff4500;
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+        .button:hover {
+            background-color: #ff6347;
+        }
+        .image img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        footer h1 {
+            font-size: 2rem;
+            color: #ff6347;
+        }
+        footer p {
+            font-size: 1rem;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Book Store</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="available_books">Available Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="my_books">Cart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="about">About</a>
+                </li>
+            </ul>
+            <div>
+                <a class="nav-link text-white" href="book_register">New Book Register</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container text-center my-5">
+    <h1 style="color:#ff6347; font-size:55px;">About Us</h1>
+    <div class="d-flex justify-content-center align-items-center" style="margin:65px auto;">
+        <div class="content me-5" style="flex:1; width:600px;">
+            <h3 style="margin-bottom:20px;">Welcome to Our Website Of Book Storing</h3>
+            <p>One of the advantages to bookkeeping is that you’re meeting a legal obligation to financial reports for your company. Businesses aren’t legally permitted to operate “under the table,” so to speak. You must track and document revenue and pay appropriate taxes each year.</p>
+            <button class="button">Learn More</button>
+        </div>
+        <div class="image" style="flex:1; width:600px;">
+            <img src="https://th.bing.com/th/id/OIP.b3nR4Vfw9CwHGSW400ACpgAAAA?w=474&h=316&rs=1&pid=ImgDetMain">
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+<footer>
+    <h1>Book Store</h1>
+    <p>© 2024, Group Four All Rights Reserved</p>
+    <p>AhmedIize@gmail.com</p>
+    <p>Tel: 0617076888 or 06154328907</p>
+</footer>
+
+</body>
+</html>

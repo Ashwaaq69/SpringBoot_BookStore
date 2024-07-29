@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bookStore/bookStore.iml" filepath="$PROJECT_DIR$/bookStore/bookStore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/bookstore_spring_boot_project-main.iml" filepath="$PROJECT_DIR$/.idea/bookstore_spring_boot_project-main.iml" />
+    </modules>
+  </component>
+</project>
